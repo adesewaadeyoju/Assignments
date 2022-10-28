@@ -1,0 +1,20 @@
+body{
+    background-image: url(image/annie.jpg);
+    background: #ddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.popup{
+    width: 350px;
+    height: 280px;
+    padding: 30px 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}

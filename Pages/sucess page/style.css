@@ -1,0 +1,46 @@
+body{
+    background-image: url(images/annie.jpg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.popup{
+    width: 350px;
+    height: 280px;
+    padding: 30px 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.title{
+    margin: 5px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+ .description{
+    color: teal;
+    font-size: 15px;
+    padding: 5px;
+}
+.dismiss-btn{
+margin-top: 80px;
+}
+.dismiss-btn button{
+    background: teal;
+    color: whitesmoke;
+    border: 2px  solid rgb(40, 38, 38);
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.dismiss-btn button:hover{
+    color: teal;
+    background: whitesmoke;
+}

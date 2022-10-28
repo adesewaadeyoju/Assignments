@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(image/anniee.jpg);
+    background-size: cover;
+    color: rgb(11, 47, 47);
+    height: 70%;
+}
+.registration-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.registration-form h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.registration-form p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+.registration-form input{
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 100%;
+    border: 0;
+    outline: none;
+}
+.registration-form button{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0;
+    width: 60%;
+    padding: 5px 10px;
+    border: o;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+.registration-form button:hover{
+    color: teal;
+}
+.i {
+    text-align: center;
+}
